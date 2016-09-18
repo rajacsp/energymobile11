@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:background="@drawable/mensky"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culture"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#fff"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect"
+            />
+
+
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THERE ARE MANY MESSAGES VARIATION OF PASSEGES"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:textColor="@color/title_text_color"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"/>
+
+
+        <customfonts.MyTextView1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today ,10:31AM"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flash floods can occur under several types  of conditions. Flash flooding occurs when it rains rapidlyon saturated soil or dry soil that has poor absorptionability. The runoff collects in gullies and streams and,as they join to form larger volumes, often forms a fastflowing front of water and debris.Flash floods most often occur in normally dry areas that have recently received precipitation, but may be seen anywhere downstream from the source of the precipitation, even many miles from the source. In areas on or near volcanoes, flash floods have also occurred after eruptions, when glaciers have been melted by the intense heat. Flash floods are known to occur in the highest mountain ranges of the United States and are also common in the arid plains of the southwestern United States. "
+            android:layout_marginLeft="25dp"
+            android:textSize="16dp"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="5dp"
+            android:background="@drawable/darksky"/>
+        <customfonts.MyTextView1
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are many messages variation of passeges"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
